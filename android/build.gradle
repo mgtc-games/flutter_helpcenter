@@ -27,6 +27,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.zendesk_helpcenter_plugin'
     compileSdkVersion 33
 
     compileOptions {
